@@ -1,0 +1,90 @@
+*{
+    font-family: "Calibri", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 250mm;
+    display: flex;
+}
+.leftsection{
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+   margin: 10px;
+   background-color: f2f2f2;
+}
+.contactmain{
+    height: 182px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+#profile{
+    height: 200px;
+    width: 200px;
+}
+.head {
+    font-size: 20px;
+    margin-left: 18px;
+}
+hr{
+    margin-left: 18px;
+    margin-right: 5px;
+}
+.address{
+    margin-left: 18px;
+    font-size: 15px;
+}
+.link{
+    height: 12px;
+    width: 12px;
+}
+.lang> ul>li{
+    margin-left:40px;
+
+}
+
+/*Right Section*/
+.rightsection{
+   
+    background-color: white;
+
+}
+.item1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.Title{
+    font-size: 60px;
+    margin-top: 15px;
+    font-weight: normal;
+
+}
+/*.subtitle{
+    font-size;
+}*/
+.project-title{
+    display: flex;
+    justify-content: space-between;
+}
+.project-title>p{
+    color: #5b5b5b;
+}
+.item2{
+    margin-left: 55px;
+}
+.clg{
+    font-size: 12px;
+}
+.per{
+    margin-left: 89px;
+}
+.per1{
+    margin-left: 168px;
+}
